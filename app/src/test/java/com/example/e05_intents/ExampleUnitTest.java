@@ -1,4 +1,4 @@
-package br.ufmg.coltec.tp.e04intents;
+package com.example.e05_intents;
 
 import org.junit.Test;
 
