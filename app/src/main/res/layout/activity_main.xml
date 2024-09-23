@@ -80,4 +80,27 @@
         android:textSize="16sp"
         android:text="+55 31 91234-5678"
         android:textColor="@android:color/holo_green_dark" />
+
+    <Button android:id="@+id/scan_button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:text="Escanear Código de Barras" />
+
+    <TextView android:id="@+id/barcode_text"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+
+        android:textSize="16sp"
+        android:text="Código de Barras: " />
+
+
 </LinearLayout>
